@@ -1,0 +1,4 @@
+// En MauiProgram.cs, dentro de CreateMauiApp(), antes de "return builder.Build();":
+builder.Services.AddSingleton<ZeroBoard.Data.Database.ZeroBoardDatabase>();
+builder.Services.AddSingleton<ZeroBoard.Data.Repositories.ProyectoRepository>();
+builder.Services.AddSingleton<ZeroBoard.Data.Repositories.ElementoRepository>();
