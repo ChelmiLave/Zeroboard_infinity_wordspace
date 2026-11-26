@@ -1,0 +1,11 @@
+name: zeroboard
+description: Adaptación Android de ZeroBoard 1.1 en Flutter.
+publish_to: none
+version: 1.1.0+22
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+flutter:
+  uses-material-design: false
